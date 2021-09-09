@@ -4,5 +4,10 @@
     <TargetProject>49d51a84-d7b9-4428-9d44-e117b1df0e53</TargetProject>
     <FriendlyName>studyPython_week1</FriendlyName>
   </ProjectTarget>
+  <Reports>
+    <Report>
+      <Filename>C:\Users\yyk834\AppData\Local\Temp\studyPython_week1_20210909.vsp</Filename>
+    </Report>
+  </Reports>
   <UseVTune>false</UseVTune>
 </ProfilingTarget>

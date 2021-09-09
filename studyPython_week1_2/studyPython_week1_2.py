@@ -1,5 +1,9 @@
-def isPalindrome(s: str):
-    strs:Deque = collections.deque()
+import collections
+from typing import Deque
+
+def isPalindrome(s: str) -> bool:
+    # 자료형 데크로 선언
+    strs: Deque = collections.deque()
 
     for char in s:
         if char.isalnum():
@@ -12,5 +16,4 @@ def isPalindrome(s: str):
     return True
 
 if __name__ == "__main__":
-    print(isPalindrome("race a car"))
-
+    print(isPalindrome("aa bb aa"))
